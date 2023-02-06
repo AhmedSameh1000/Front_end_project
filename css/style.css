@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800");
-
 html {
 	font-size: 62.5%;
 	-webkit-text-size-adjust: 100%;
@@ -189,7 +188,7 @@ body {
 	border-bottom: 0.1rem solid #f4f4f4;
 }
 
-.header-middle .menu>li>a {
+.header-middle .menu > li > a {
 	letter-spacing: 0.01em;
 }
 
@@ -240,7 +239,7 @@ body {
 	padding-left: 10px;
 }
 
-.header-setting>div {
+.header-setting > div {
 	display: flex;
 	align-content: space-between;
 }
@@ -400,7 +399,7 @@ box-icon:hover,
 	background-color: var(--white);
 }
 
-.sticky+.slider {
+.sticky + .slider {
 	padding-top: 60px;
 }
 
@@ -1112,7 +1111,8 @@ a {
 	height: 300px;
 }
 
-.member img:hover {}
+.member img:hover {
+}
 
 .member .information {
 	background-color: var(--gray);
@@ -1147,7 +1147,7 @@ a {
 	margin-right: 100px;
 }
 
-.section_1>h1 {
+.section_1 > h1 {
 	font-weight: bold;
 	text-align: start;
 	text-align: center;
@@ -1381,7 +1381,7 @@ a {
 	border: 1px dashed gray;
 	background-color: rgba(238, 232, 226, 0.562);
 	position: absolute;
-	top: 62%;
+	top: 30%;
 	right: 4%;
 }
 

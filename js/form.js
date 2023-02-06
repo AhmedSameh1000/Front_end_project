@@ -17,6 +17,7 @@ click_Register.onclick = function () {
 	sign_in.style.transform = `translateX(0%)`;
 	sign_up.style.transform = `translateX(-100%)`;
 };
+
 //data manipolation
 let form_sign_up = document.getElementById("sn");
 let sign_up_all_span = document.querySelectorAll("#sn span");
@@ -39,6 +40,7 @@ form_sign_up.addEventListener("submit", function (e) {
 
 	localStorage.email = form_sign_up[1].value;
 });
+
 let form_log_in = document.getElementById("snn");
 let log_in_all_span = document.querySelectorAll("#snn span");
 form_log_in.addEventListener("submit", function (e) {
